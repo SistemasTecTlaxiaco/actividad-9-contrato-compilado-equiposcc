@@ -1,0 +1,23 @@
+{
+	"name": "teccaft",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"test": "asp",
+		"build": "asb",
+		"deploy:dev": "yarn build && near dev-deploy"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"assemblyscript": "^0.19.22",
+		"near-sdk-as": "^3.2.3"
+	},
+	"dependencies": {
+		"@assemblyscript/loader": "^0.19.22",
+		"date-and-time": "^2.0.1",
+		"near-sdk-as": "^3.2.3"
+	}
+}
