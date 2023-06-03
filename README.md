@@ -1,4 +1,4 @@
-# Bienvenido a OpenBooks 📖
+# Bienvenido a TECCAFT📖
 ---
 tecafft es un smart contract que parte de la idea de que todo el conocimiento y la información debe ser libre para todos. Este proyecto permite a los usuarios publicar productos, ventas, usuarios y compras, etc. en un ambiente completamente descentralizado y así permitir a otros usuarios obtener los recursos facilmente sin tener que visitar cientos de páginas diferentes hasta conseguir el recurso que buscaban.
 Las funcionalidades principales del contrato son las siguientes:
@@ -29,7 +29,7 @@ Ya tenemos todo lo que necesitamos para probar nuestro contrato inteligente. Aho
 
 ## Instalación 📖🐱‍💻
 ---
-1. Clone el repositorio ```git clone git@github.com:sebasvivas1/OpenBooks.git && cd OpenBooks```
+1. Clone el repositorio ```git clone ```
 2. Vamos a iniciar sesión en nuestra wallet que creamos anteriormente: ```near login```
 3. Dentro del repositorio, instalemos las dependencias del proyecto ejecutando ```npm install```, tranquilo, esto puede tomar unos segundos.
 4. Si quieres desplegar el contrato y probar sus funciones, puedes hacerlo con ```yarn deploy:dev``` esto le devolverá un conjunto de caracteres que empezarán por "dev-" seguido por numeros generados por la red. Guárdelo, lo necesitará si quiere probar los métodos del contrato inteligente.
